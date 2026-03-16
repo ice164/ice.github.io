@@ -1,0 +1,51 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-CN'
+title = '我的博客'
+theme = 'Amigo'
+
+[params]
+  # 基础信息
+  username = "你的昵称"
+  avatar = "/images/avatar.jpg"
+  description = "热爱编程和写作"
+  cover = "/images/header.png"
+  
+  # 顶部封面也可以使用视频（与 cover 二选一）
+  # headerMedia = "/images/header.png"
+  # headerMedia = "/videos/2792755201.mp4"
+  
+  # 评论模式: "artalk"、"twikoo"、"giscus" 或 "none"
+  commentMode = "artalk"
+
+  # 字体设置: "ZQL", "PingFangQiaoMuTi", "AlimamaFangYuanTi"
+  fontFamily = "ZQL"
+
+  # --- 功能开关 ---
+  showTags = true
+  showLocation = true
+  enableSearch = true
+  enableDarkMode = true
+  enablePjax = true
+  enableLightbox = true
+
+  # Artalk 配置
+  artalkServer = "http://localhost:3378"
+  artalkSite = "我的博客"
+  enableDanmaku = true
+
+  # Twikoo 配置（留空）
+  twikooEnvId = ""
+  twikooLang = "zh-CN"
+
+  # Giscus 配置（留空）
+  giscusRepo = ""
+  giscusRepoId = ""
+  giscusCategory = ""
+  giscusCategoryId = ""
+  giscusMapping = "pathname"
+  giscusStrict = "0"
+  giscusReactionsEnabled = "1"
+  giscusEmitMetadata = "0"
+  giscusInputPosition = "bottom"
+  giscusLang = "zh-CN"
+  giscusLoading = "lazy"
